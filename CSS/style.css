@@ -122,7 +122,7 @@ h4 {
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
     color:rgb(190, 190, 197);
-    font-size: 3rem;
+    font-size: 1.8rem;
    justify-content: end;
 }
 .navegacion__enlace:hover {
@@ -236,6 +236,9 @@ h4 {
     margin: 0;
     text-align: center;
 }
+.bloque__imagen {
+    justify-content: center;
+}
 
 /** Pagina del Producto **/
 @media (min-width: 768px) {
@@ -299,8 +302,6 @@ h4 {
     color: gold;
 }
 
-
-  
 .contenedor--campos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
