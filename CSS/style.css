@@ -70,7 +70,7 @@ h3 {
     font-size: 2.4rem;
 }
 h4 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -84,11 +84,11 @@ h4 {
 }
 .header__logo {
     margin: 0 rem 0;
-    height: 680;
+    height: 100%;
 }
 /** footer **/
 .footer {
-    background-color:rgb(226, 221, 216);
+    background-color:rgb(216, 224, 226);
     color: gold;
     padding: 0,5rem 0;
     margin-top: 1rem;
@@ -113,7 +113,7 @@ h4 {
 
 /** navegacion **/
 .navegacion {
-    background-color: rgb(199, 141, 75);
+    background-color: rgb(117, 117, 121);
     padding: 2rem 0;
     display: flex;
     justify-content: center;
@@ -122,7 +122,7 @@ h4 {
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
     color:rgb(190, 190, 197);
-    font-size: 1.8rem;
+    font-size: 1.3rem;
    justify-content: end;
 }
 .navegacion__enlace:hover {
@@ -266,7 +266,7 @@ h4 {
 }
 
 .formulario__submit {
-    background-color: #704412;
+    background-color: #504f4e;
     border: none;
     font-size: 2rem;
     font-family: #0c0701 ;
@@ -277,12 +277,12 @@ h4 {
 .formulario__submit:hover {
     font-size: 2.4rem;
     cursor: pointer;
-    background-color: #ce8f47;
+    background-color: #757474;
 }
 
 /** Contacto **/
 .formulario {
-    background-color: #cf995a;
+    background-color: #646464;
     width: min(90rem, 100%);
     margin: 0 auto;
     padding: 2rem;
@@ -336,7 +336,7 @@ h4 {
 }
 
 .boton {
-    background-color: rgb(12, 61, 59);
+    background-color: rgb(3, 8, 54);
     color: gold;
     padding: 1rem 3rem;
     margin-top: 3rem;
@@ -363,7 +363,6 @@ h4 {
 /** Estilos **/
 .slider {
     width: 100%;
-    height: 400px;
     overflow: hidden;
    }
 .slider ul{
@@ -603,12 +602,14 @@ h4 {
 
 .box {
     width: 250px;
-    margin: 0 10px;
+    height: 100%;
+    margin: 0 10px auto;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
     transition: 1s;
 }
 
 .box img{
+    width: 100%;
     display: block;
     width: 100%;
     border-radius: 10px 10px 10px 10px;
@@ -621,7 +622,7 @@ h4 {
 }
 
 .box p {
-    font-size: 3rem;
+    font-size: 1rem;
     color: #0c0701;
     position: absolute;
     top: 50%;
@@ -689,7 +690,7 @@ h4 {
     height: 100vh;
     
     /*Color*/
-    background: rgba(216, 152, 92, 0.98);
+    background: rgba(88, 87, 86, 0.98);
 }
 .barra:hover h2{
     /*posicion dentro de barra del h2*/
