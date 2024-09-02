@@ -113,16 +113,16 @@ h4 {
 
 /** navegacion **/
 .navegacion {
-    background-color: rgb(117, 117, 121);
+    background-color: rgb(44, 44, 46);
     padding: 2rem 0;
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 1rem;
 }
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
     color:rgb(190, 190, 197);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
    justify-content: end;
 }
 .navegacion__enlace:hover {
@@ -690,7 +690,7 @@ h4 {
     height: 100vh;
     
     /*Color*/
-    background: rgba(88, 87, 86, 0.98);
+    background:  rgb(44, 44, 46);
 }
 .barra:hover h2{
     /*posicion dentro de barra del h2*/
